@@ -9,12 +9,16 @@
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   </head>
   <body>
   <nav class="navbar navbar-dark navbar-expand-lg bg-dark text-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Medslarm</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,7 +49,8 @@
   </div>
 </nav>
 
-<div class="container mx-auto" style="padding: 50px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+<div class="container mx-auto" style="padding: 20px;">
 <div class="col-md-10 mx-auto ">
     <div class="row  mx-auto">
         <div class="col-xl-3 col-lg-6">
@@ -142,6 +147,169 @@
         </div>
     </div>
 </div>
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card card-margin">
+            <div class="card-header no-border">
+                <h5 class="card-title">MOM</h5>
+            </div>
+            <div class="card-body pt-0">
+                <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                        <div class="widget-49-date-primary">
+                            <span class="widget-49-date-day">09</span>
+                            <span class="widget-49-date-month">apr</span>
+                        </div>
+                        <div class="widget-49-meeting-info">
+                            <span class="widget-49-pro-title">PRO-08235 DeskOpe. Website</span>
+                            <span class="widget-49-meeting-time">12:00 to 13.30 Hrs</span>
+                        </div>
+                    </div>
+                    <ol class="widget-49-meeting-points">
+                        <li class="widget-49-meeting-item"><span>Expand module is removed</span></li>
+                        <li class="widget-49-meeting-item"><span>Data migration is in scope</span></li>
+                        <li class="widget-49-meeting-item"><span>Session timeout increase to 30 minutes</span></li>
+                    </ol>
+                    <div class="widget-49-meeting-action">
+                        <a href="#" class="btn btn-sm btn-flash-border-primary">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-margin">
+            <div class="card-header no-border">
+                <h5 class="card-title">MOM</h5>
+            </div>
+            <div class="card-body pt-0">
+                <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                        <div class="widget-49-date-warning">
+                            <span class="widget-49-date-day">13</span>
+                            <span class="widget-49-date-month">apr</span>
+                        </div>
+                        <div class="widget-49-meeting-info">
+                            <span class="widget-49-pro-title">PRO-08235 Lexa Corp.</span>
+                            <span class="widget-49-meeting-time">12:00 to 13.30 Hrs</span>
+                        </div>
+                    </div>
+                    <ol class="widget-49-meeting-points">
+                        <li class="widget-49-meeting-item"><span>Scheming module is removed</span></li>
+                        <li class="widget-49-meeting-item"><span>App design contract confirmed</span></li>
+                        <li class="widget-49-meeting-item"><span>Client request to send invoice</span></li>
+                    </ol>
+                    <div class="widget-49-meeting-action">
+                        <a href="#" class="btn btn-sm btn-flash-border-warning">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-margin">
+            <div class="card-header no-border">
+                <h5 class="card-title">MOM</h5>
+            </div>
+            <div class="card-body pt-0">
+                <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                        <div class="widget-49-date-success">
+                            <span class="widget-49-date-day">22</span>
+                            <span class="widget-49-date-month">apr</span>
+                        </div>
+                        <div class="widget-49-meeting-info">
+                            <span class="widget-49-pro-title">PRO-027865 Opera module</span>
+                            <span class="widget-49-meeting-time">12:00 to 13.30 Hrs</span>
+                        </div>
+                    </div>
+                    <ol class="widget-49-meeting-points">
+                        <li class="widget-49-meeting-item"><span>Scope is revised and updated</span></li>
+                        <li class="widget-49-meeting-item"><span>Time-line has been changed</span></li>
+                        <li class="widget-49-meeting-item"><span>Received approval to start wire-frame</span></li>
+                    </ol>
+                    <div class="widget-49-meeting-action">
+                        <a href="#" class="btn btn-sm btn-flash-border-success">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container mt-5 mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0">Mailchimp</h6> <span>1 days ago</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Design</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Senior Product<br>Designer-Singapore</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <i class="bx bxl-dribbble"></i> </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0">Dribbble</h6> <span>4 days ago</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Product</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Junior Product<br>Designer-Singapore</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">42 Applied <span class="text2">of 70 capacity</span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <i class="bx bxl-reddit"></i> </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0">Reddit</h6> <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Design</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Software Architect <br>Java - USA</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">52 Applied <span class="text2">of 100 capacity</span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
   <!-- Footer -->

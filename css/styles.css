@@ -8,6 +8,11 @@
  padding-bottom: 200px;
 }
 
+.mainnav1{
+  background-color: #0099ff; 
+  padding-bottom: 0px;
+ }
+
 .card {
   background-color: #fff;
   border-radius: 10px;
@@ -1184,7 +1189,6 @@ text-transform: uppercase;
 .CalendarPlanSet01 {
   display: grid;
   place-items: center;
-  background-color: #eaedf2;
   height: 100vh;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
@@ -1225,7 +1229,7 @@ select {
 }
 
 .bg-image {
-  background-image: url('https://bootstrapious.com/i/snippets/sn-page-split/bg.jpg');
+  background-image: url('https://images.unsplash.com/photo-1562243061-204550d8a2c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
   background-size: cover;
   background-position: center center;
 }

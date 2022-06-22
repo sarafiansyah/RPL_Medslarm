@@ -19,23 +19,24 @@
   <div class="mainbg1">
 <?php  include("fw/nav-main.php") ?>
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
 
 
-<div class="container-fluid">
+<div class="container-fluid" style="padding: 100px; border-radius: 20px; margin-top: -500px;">
     <div class="row no-gutter">
         <!-- The image half -->
-        <div class="col-md-6 d-none d-md-flex bg-image"></div>
+        <div class="col-md-6 d-none d-md-flex bg-image" style="border-radius: 20px 0px 0px 20px;"></div>
 
 
         <!-- The content half -->
-        <div class="col-md-6 bg-light">
+        <div class="col-md-6 bg-light" style="border-radius: 0px 20px 20px 0px;">
             <div class="login d-flex align-items-center py-5">
 
                 <!-- Demo content-->
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-xl-7 mx-auto">
-                            <h3 class="display-4">Split page!</h3>
+                            <h3 class="display-4">Sign In!</h3>
                             <p class="text-muted mb-4">Create a login split page using Bootstrap 4.</p>
                             <form>
                                 <div class="form-group mb-3">
@@ -44,6 +45,7 @@
                                 <div class="form-group mb-3">
                                     <input id="inputPassword" type="password" placeholder="Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
                                 </div>
+
                                 <div class="custom-control custom-checkbox mb-3">
                                     <input id="customCheck1" type="checkbox" checked class="custom-control-input">
                                     <label for="customCheck1" class="custom-control-label">Remember password</label>

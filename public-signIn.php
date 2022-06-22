@@ -1,4 +1,56 @@
+<?php
+//REG
+require '_php/function.php';
+session_start();
+verifyCookie();
+
+if (isset($_SESSION['username'])) {
+   header("Location: userMain.php");
+}
+
+if(isset($_POST['register'])) {
+  if(registration($_POST) > 0){
+    echo "<script>
+          alert('User baru berhasil');
+          </script>";
+  }
+}
+else {
+  echo mysqli_error($conn);
+}
+
+
+//LOG
+if(isset($_POST['loginBtn'])) {
+  $username = $_POST["loginUsername"];
+  $password = $_POST["loginPassword"];
+  $resultLog = mysqli_query($conn, "SELECT * FROM users WHERE username ='$username'");
+
+  //Username check
+  if(mysqli_num_rows($resultLog) === 1){
+    //Password Check
+    $row = mysqli_fetch_assoc($resultLog);
+    if(password_verify($password, $row["password"])){
+       $_SESSION['username'] = $username;
+      // remember me
+      if(isset($_POST['rememberme'])) {
+         setcookie('id', $row['id'], mktime(0, 0, 0, 0, 0, 25));
+         setcookie('key', hash('sha256', $username), mktime(0, 0, 0, 0, 0, 25));
+      }
+      header("Location: userMain.php");
+      exit;
+    }
+  }
+
+  $error = true;
+
+
+}
+?>
+
+
 <!doctype html>
+
 <html lang="en">
   <head>
     <title>Title</title>
@@ -36,23 +88,22 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-xl-7 mx-auto">
-                            <h3 class="display-4">Sign In!</h3>
+                            <h3 class="display-4">Sign Up!</h3>
                             <p class="text-muted mb-4">Create a login split page using Bootstrap 4.</p>
-                            <form>
+                            <form class="" action="#" method="post">
                                 <div class="form-group mb-3">
-                                    <input id="inputEmail" type="email" placeholder="Email address" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    <input id="loginUsername" type="text" name="loginUsername" placeholder="Email address" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input id="inputPassword" type="password" placeholder="Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+                                    <input id="loginPassword" type="password" name="loginPassword"placeholder="Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
                                 </div>
-
+                               
                                 <div class="custom-control custom-checkbox mb-3">
                                     <input id="customCheck1" type="checkbox" checked class="custom-control-input">
                                     <label for="customCheck1" class="custom-control-label">Remember password</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
-                                <div class="text-center d-flex justify-content-between mt-4"><p>Snippet by <a href="https://bootstrapious.com/snippets" class="font-italic text-muted"> 
-                                        <u>Boostrapious</u></a></p></div>
+                                <button type="submit" name="loginBtn" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
+                                <div class="text-center d-flex justify-content-between mt-4"><p>Already have account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign In</u></a></p></div>
                             </form>
                         </div>
                     </div>

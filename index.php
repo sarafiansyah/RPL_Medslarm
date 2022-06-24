@@ -16,19 +16,47 @@
 
   </head>
   <body>
-    <div class="mainbg1">
+    <div class="mainbg1" id="home">
         
         <?php  include("fw/nav-main.php") ?>
+        <div class="container">
+       
+        
+        <div style="width: 600px; float: left; padding-top: 100px; padding-left: 100px; padding-right: 20px;">
+        <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>No Meds Left Behind</b></h1>
+        <p style="font-size: 24px; color: white; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <a class="btn  btn-outline-light rounded-pill mr-auto"  href="public-signUp.php" role="button">Sign Up</a>
         </div>
+        <img src="images/index-img01.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+        
+      </div>
+    
+      </div>
+     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#0099ff" fill-opacity="1" d="M0,32L80,53.3C160,75,320,117,480,112C640,107,800,53,960,32C1120,11,1280,21,1360,26.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+</svg> -->
+
+<div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 100px;">
+       
+<div class="container">
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+        <div class="d-flex justify-content-center">
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
 
 
+        </div>
+      </div>
+    
+      </div>
 
 
         
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
 
 
-<h1 clas="text-center mx-auto text-light" style="text-align: center; font-size: 100px; color: white; margin-top: -400px;">Medslarm</h1>
+
+
 <div class="container" style="padding-top: 400px;">
 </div>
 

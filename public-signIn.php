@@ -88,8 +88,8 @@ if(isset($_POST['loginBtn'])) {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-xl-7 mx-auto">
-                            <h3 class="display-4">Sign Up!</h3>
-                            <p class="text-muted mb-4">Create a login split page using Bootstrap 4.</p>
+                            <h3 class="display-4">Sign In!</h3>
+                            <p class="text-muted mb-4">Login to access your reminder anywhere, anytime, at all costs!</p>
                             <form class="" action="#" method="post">
                                 <div class="form-group mb-3">
                                     <input id="loginUsername" type="text" name="loginUsername" placeholder="Email address" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
@@ -103,7 +103,7 @@ if(isset($_POST['loginBtn'])) {
                                     <label for="customCheck1" class="custom-control-label">Remember password</label>
                                 </div>
                                 <button type="submit" name="loginBtn" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
-                                <div class="text-center d-flex justify-content-between mt-4"><p>Already have account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign In</u></a></p></div>
+                                <div class="text-center d-flex justify-content-between mt-4"><p>Don't have an account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign Up</u></a></p></div>
                             </form>
                         </div>
                     </div>

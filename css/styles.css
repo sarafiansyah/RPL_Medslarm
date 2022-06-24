@@ -5,8 +5,13 @@
 
 .mainbg1{
  background-color: #0099ff; 
- padding-bottom: 200px;
+ padding-bottom: 0px;
 }
+
+.mainbg2{
+  background-color: #e6e6e6; 
+  padding-bottom: 0px;
+ }
 
 .mainnav1{
   background-color: #0099ff; 

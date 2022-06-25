@@ -103,7 +103,7 @@ if(isset($_POST['loginBtn'])) {
                                     <label for="customCheck1" class="custom-control-label">Remember password</label>
                                 </div>
                                 <button type="submit" name="loginBtn" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
-                                <div class="text-center d-flex justify-content-between mt-4"><p>Don't have an account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign Up</u></a></p></div>
+                                <div class="text-center d-flex justify-content-between mt-4"><p>Don't have an account? <a href="public-signUp.php" class="font-italic text-muted"> <u>Sign Up</u></a></p></div>
                             </form>
                         </div>
                     </div>

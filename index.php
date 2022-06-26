@@ -144,6 +144,54 @@
 
     </div>
 </div>
+
+
+
+<div class="container" >
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+<?php
+
+if (isset($_GET['search']) && ($_GET['search'] !== '')) {
+    $search = urlencode($_GET['search']);
+    echo <<<EOL
+    <script type='text/javascript'>
+    window.scrollTo({
+        top: 400,
+        behavior: 'smooth',
+      });
+    document.getElementById('searchMeds').style.visibility = "hidden";
+    </script>
+
+
+    <div id="emailHelp" class="form-text">Click here to search for '$search'</div>
+<a class="btn btn-primary" href="https://www.halodoc.com/obat-dan-vitamin/search/{$search}">Halodoc</a>
+<a class="btn btn-primary" href="https://www.google.com/search?q={$search}&ie=UTF-8&oe=UTF-8">Google</a>
+<a class="btn btn-primary" href="index.php">Clear</a>
+
+
+EOL;
+}
+?>
+<form>
+<div class="mb-3" id="searchMeds">
+    <label for="exampleInputPassword1" class="form-label">Find your Medicine!</label>
+     <input type="text" name="search" class="form-control" id="inputMeds"  >
+     </div>
+    
+
+
+
+  
+</form>
+
+
+      </div>
+
+
+
+
+
+
       </div>
     
       </div>

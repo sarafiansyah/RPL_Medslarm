@@ -43,11 +43,11 @@
 </svg> -->
 <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(0, 153, 255, 1)" offset="0%"></stop><stop stop-color="rgba(0, 153, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L30,56.7C60,63,120,77,180,70C240,63,300,37,360,36.7C420,37,480,63,540,75C600,87,660,83,720,76.7C780,70,840,60,900,46.7C960,33,1020,17,1080,18.3C1140,20,1200,40,1260,46.7C1320,53,1380,47,1440,46.7C1500,47,1560,53,1620,48.3C1680,43,1740,27,1800,21.7C1860,17,1920,23,1980,35C2040,47,2100,63,2160,65C2220,67,2280,53,2340,48.3C2400,43,2460,47,2520,53.3C2580,60,2640,70,2700,65C2760,60,2820,40,2880,33.3C2940,27,3000,33,3060,45C3120,57,3180,73,3240,78.3C3300,83,3360,77,3420,73.3C3480,70,3540,70,3600,60C3660,50,3720,30,3780,30C3840,30,3900,50,3960,63.3C4020,77,4080,83,4140,76.7C4200,70,4260,50,4290,40L4320,30L4320,100L4290,100C4260,100,4200,100,4140,100C4080,100,4020,100,3960,100C3900,100,3840,100,3780,100C3720,100,3660,100,3600,100C3540,100,3480,100,3420,100C3360,100,3300,100,3240,100C3180,100,3120,100,3060,100C3000,100,2940,100,2880,100C2820,100,2760,100,2700,100C2640,100,2580,100,2520,100C2460,100,2400,100,2340,100C2280,100,2220,100,2160,100C2100,100,2040,100,1980,100C1920,100,1860,100,1800,100C1740,100,1680,100,1620,100C1560,100,1500,100,1440,100C1380,100,1320,100,1260,100C1200,100,1140,100,1080,100C1020,100,960,100,900,100C840,100,780,100,720,100C660,100,600,100,540,100C480,100,420,100,360,100C300,100,240,100,180,100C120,100,60,100,30,100L0,100Z"></path></svg>
 
-<div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 100px;">
+<div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 300px;">
        
-<div class="container">
+<div class="container mx-auto text-center">
 <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mx-auto">
         <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
         <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
         <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
@@ -59,7 +59,7 @@
       </div>
 
       
-      <div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 100px;">
+      <div class="mainbg0" id="testimonials" style="padding-top: 0px; padding-bottom: 300px;">
        
 <div class="container">
 <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
@@ -144,9 +144,10 @@
 
     </div>
 </div>
+</div>
+</div>
 
-
-
+<div class="mainbg0" id="medicines" style="padding-top: 0px; padding-bottom: 300px;">
 <div class="container" >
 <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
 <?php
@@ -176,6 +177,7 @@ EOL;
 <div class="mb-3" id="searchMeds">
     <label for="exampleInputPassword1" class="form-label">Find your Medicine!</label>
      <input type="text" name="search" class="form-control" id="inputMeds"  >
+     <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
      </div>
     
 
@@ -186,15 +188,57 @@ EOL;
 
 
       </div>
-
-
-
-
-
-
       </div>
-    
+
+      <div class="mainbg0" id="partners" style="padding-top: 0px; padding-bottom: 100px;">
+      <div class="container mx-auto justify-content-center "> 
+      <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+    <img src="images/index-imgHalodoc.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+    <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+    <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+<img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
 
 
         
@@ -202,8 +246,7 @@ EOL;
 
 
 
-<div class="container" style="padding-top: 400px;">
-</div>
+
 
 
 

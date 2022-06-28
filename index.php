@@ -25,12 +25,12 @@
     <div class="mainbg1" id="home">
         
         <?php  include("fw/nav-main.php") ?>
-        <div class="container">
+        <div class="container justify-content-center mx-auto text-center">
        
         
-        <div style="width: 600px; float: left; padding-top: 100px; padding-left: 100px; padding-right: 20px;">
-        <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>Welcome To Medslarm</b></h1>
-        <p style="font-size: 24px; color: white; ">Sign Up to use the web.</p>
+        <div style="width: 600px; float: left; padding-top: 100px; padding-left: 100px; padding-right: 20px; text-align: left;">
+        <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>No Meds Left Behind</b></h1>
+        <p style="font-size: 24px; color: white; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!</p>
         <a class="btn  btn-outline-light rounded-pill mr-auto"  href="public-signUp.php" role="button">Sign Up</a>
         </div>
         <img src="images/index-img01.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
@@ -60,12 +60,11 @@
       <div class="mainbg0" id="testimonials" style="padding-top: 0px; padding-bottom: 300px;">
        
 <div class="container">
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+<div class="d-flex justify-content-center fas fa-heart"></div>
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Our Customers</b></h1> 
 
 <div class="containerOWL rounded" style="color: black;">
-    <div class="d-flex justify-content-center fas fa-heart"></div>
-    <p class="tag">Our customers love</p>
-    <h1 class="text-primary text-center head">What we do</h1>
+
     <div class="owl-carousel owl-theme">
         <div class="owl-item">
             <div class="card d-flex flex-column">
@@ -147,7 +146,7 @@
 
 <div class="mainbg0" id="medicines" style="padding-top: 0px; padding-bottom: 300px;">
 <div class="container" >
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Find your medicine!</b></h1> 
 <?php
 
 if (isset($_GET['search']) && ($_GET['search'] !== '')) {
@@ -190,10 +189,10 @@ EOL;
 
       <div class="mainbg0" id="partners" style="padding-top: 0px; padding-bottom: 100px;">
       <div class="container mx-auto justify-content-center "> 
-      <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+      <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Our Partners</b></h1> 
       <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card">
+    <div class="card" style="height: 220px;">
     <img src="images/index-imgHalodoc.png"  class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.halodoc.com/">halodoc</a></h5>
@@ -202,29 +201,29 @@ EOL;
     </div>
   </div>
   <div class="col">
-    <div class="card">
+  <div class="card" style="height: 220px;">
     <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.kimiafarma.co.id/">Kimia Farma</a></h5>
-        <p class="card-text"></p>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card">
+  <div class="card" style="height: 220px;">
     <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.klikdokter.com/">klikDOKTER</a></h5>
-        <p class="card-text"></p>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card">
+  <div class="card" style="height: 220px;">
 <img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://century-pharma.com/">Century</a></h5>
-        <p class="card-text"></p>
+      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
       </div>
     </div>
   </div>

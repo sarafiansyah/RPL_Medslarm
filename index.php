@@ -29,8 +29,8 @@
        
         
         <div style="width: 600px; float: left; padding-top: 100px; padding-left: 100px; padding-right: 20px;">
-        <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>No Meds Left Behind</b></h1>
-        <p style="font-size: 24px; color: white; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>Welcome To Medslarm</b></h1>
+        <p style="font-size: 24px; color: white; ">Sign Up to use the web.</p>
         <a class="btn  btn-outline-light rounded-pill mr-auto"  href="public-signUp.php" role="button">Sign Up</a>
         </div>
         <img src="images/index-img01.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
@@ -48,9 +48,7 @@
 <div class="container mx-auto text-center">
 <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>About Us</b></h1> 
         <div class="d-flex justify-content-center mx-auto">
-        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
-        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
-        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <p style="font-size: 24px; color: black; ">Membuat Website Reminder yang dapat dipakai oleh semua kalangan, untuk dipakai sehari-hari</p>
 
 
         </div>
@@ -106,7 +104,7 @@
                     <img src="images/fanny_photo.png" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2">
                         <div class="name">Fanny</div>
-                        <p class="text-muted designation">CEO of My Company</p>
+                        <p class="text-muted designation">NURSE</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +118,7 @@
                     <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2">
                         <div class="name">Megan</div>
-                        <p class="text-muted designation">CEO of My Company</p>
+                        <p class="text-muted designation">DOCTOR</p>
                     </div>
                 </div>
             </div>
@@ -131,10 +129,10 @@
                 <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                 <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
                 <div class="d-flex flex-row profile pt-4 mt-auto">
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
+                    <img src="images/milkha.png" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2">
-                        <div class="name">Megan</div>
-                        <p class="text-muted designation">CEO of My Company</p>
+                        <div class="name">Milkha</div>
+                        <p class="text-muted designation">Miss Universe</p>
                     </div>
                 </div>
             </div>
@@ -196,9 +194,9 @@ EOL;
       <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-    <img src="images/index-imgHalodoc.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+    <img src="images/index-imgHalodoc.png"  class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">halodoc</h5>
+      <h5 class="card-title"><a class="nav-link" href="https://www.halodoc.com/">halodoc</a></h5>
         <p class="card-text"></p>
       </div>
     </div>
@@ -207,7 +205,7 @@ EOL;
     <div class="card">
     <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">kimia farma</h5>
+      <h5 class="card-title"><a class="nav-link" href="https://www.kimiafarma.co.id/">Kimia Farma</a></h5>
         <p class="card-text"></p>
       </div>
     </div>
@@ -216,7 +214,7 @@ EOL;
     <div class="card">
     <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">klikDOKTER</h5>
+      <h5 class="card-title"><a class="nav-link" href="https://www.klikdokter.com/">klikDOKTER</a></h5>
         <p class="card-text"></p>
       </div>
     </div>
@@ -225,7 +223,7 @@ EOL;
     <div class="card">
 <img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Century</h5>
+      <h5 class="card-title"><a class="nav-link" href="https://century-pharma.com/">Century</a></h5>
         <p class="card-text"></p>
       </div>
     </div>

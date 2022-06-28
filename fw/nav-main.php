@@ -22,7 +22,7 @@
           <a class="nav-link active" href="#">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Pricing</a>
+          <a class="nav-link active" href="pricing.php">Pricing</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

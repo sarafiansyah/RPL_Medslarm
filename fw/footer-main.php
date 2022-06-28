@@ -24,7 +24,7 @@
         <a href="" class="text-white me-4">
           <i class="fab fa-google"></i>
         </a>
-        <a href="" class="text-white me-4">
+        <a href="https://www.instagram.com/sa_rafiansyah/" class="text-white me-4">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.linkedin.com/in/mahesa-rafian-syah-08531b186/" class="text-white me-4">

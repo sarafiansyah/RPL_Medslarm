@@ -46,7 +46,7 @@
 <div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 300px;">
        
 <div class="container mx-auto text-center">
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>No Meds Left Behind</b></h1> 
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>About Us</b></h1> 
         <div class="d-flex justify-content-center mx-auto">
         <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
         <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
@@ -75,10 +75,24 @@
                 <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                 <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
                 <div class="d-flex flex-row profile pt-4 mt-auto">
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
+                    <img src="images/angga.png" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2">
-                        <div class="name">Megan</div>
-                        <p class="text-muted designation">CEO of My Company</p>
+                        <div class="name">Angga</div>
+                        <p class="text-muted designation">CEO Build With Angga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-item">
+            <div class="card d-flex flex-column">
+                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span> </div>
+                <div class="main font-weight-bold pb-2 pt-1">Nice Job, Well Done</div>
+                <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                <div class="d-flex flex-row profile pt-4 mt-auto">
+                    <img src="images/beatrice.png" alt="" class="rounded-circle"> 
+                    <div class="d-flex flex-column pl-2">
+                        <div class="name">Beatrice</div>
+                        <p class="text-muted designation">UI/UX Designer</p>
                     </div>
                 </div>
             </div>
@@ -89,23 +103,9 @@
                 <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                 <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
                 <div class="d-flex flex-row profile pt-4 mt-auto">
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
+                    <img src="images/fanny_photo.png" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2">
-                        <div class="name">Megan</div>
-                        <p class="text-muted designation">CEO of My Company</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="owl-item">
-            <div class="card d-flex flex-column">
-                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span> </div>
-                <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                <div class="d-flex flex-row profile pt-4 mt-auto">
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
-                    <div class="d-flex flex-column pl-2">
-                        <div class="name">Megan</div>
+                        <div class="name">Fanny</div>
                         <p class="text-muted designation">CEO of My Company</p>
                     </div>
                 </div>
@@ -198,8 +198,8 @@ EOL;
     <div class="card">
     <img src="images/index-imgHalodoc.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">halodoc</h5>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -207,8 +207,8 @@ EOL;
     <div class="card">
     <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">kimia farma</h5>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -216,8 +216,8 @@ EOL;
     <div class="card">
     <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">klikDOKTER</h5>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -225,8 +225,8 @@ EOL;
     <div class="card">
 <img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Century</h5>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>

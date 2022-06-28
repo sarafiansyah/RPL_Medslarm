@@ -46,9 +46,11 @@
 <div class="mainbg0" id="about" style="padding-top: 100px; padding-bottom: 300px;">
        
 <div class="container mx-auto text-center">
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>About Us</b></h1> 
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b>About Us</b></h1> 
         <div class="d-flex justify-content-center mx-auto">
-        <p style="font-size: 24px; color: black; ">Membuat Website Reminder yang dapat dipakai oleh semua kalangan, untuk dipakai sehari-hari</p>
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+        <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
 
 
         </div>
@@ -61,7 +63,7 @@
        
 <div class="container">
 <div class="d-flex justify-content-center fas fa-heart"></div>
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Our Customers</b></h1> 
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b>Our Customers</b></h1> 
 
 <div class="containerOWL rounded" style="color: black;">
 
@@ -146,7 +148,7 @@
 
 <div class="mainbg0" id="medicines" style="padding-top: 0px; padding-bottom: 300px;">
 <div class="container" >
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Find your medicine!</b></h1> 
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b>Find your medicine!</b></h1> 
 <?php
 
 if (isset($_GET['search']) && ($_GET['search'] !== '')) {
@@ -189,7 +191,7 @@ EOL;
 
       <div class="mainbg0" id="partners" style="padding-top: 0px; padding-bottom: 100px;">
       <div class="container mx-auto justify-content-center "> 
-      <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: black; text-align: center;"><b>Our Partners</b></h1> 
+      <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b>Our Partners</b></h1> 
       <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card" style="height: 220px;">

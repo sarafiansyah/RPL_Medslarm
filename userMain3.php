@@ -19,18 +19,21 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Sidebar 09</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="./sidebar-09/css/style.css">
-    <link rel="stylesheet" href="./calendar-04/css/style.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./calendar-04/css/style.css">
   </head>
   <body>
   <div class="mainbg1" id="home">
@@ -40,52 +43,12 @@
 
       </div>
       </div>
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-				<div class="custom-menu">
-					<button type="button" id="sidebarCollapse" class="btn btn-primary">
-	        </button>
-        </div>
-	  		<div class="img bg-wrap text-center py-4" style="background-image: url(./sidebar-09/images/bg_1.jpg);">
-	  			<div class="user-logo">
-	  				<div class="img" style="background-image: url(./sidebar-09/images/logo.jpg);"></div>
-	  				<h3><?php echo $showdataadm['nama_depan']." ".$showdataadm['nama_belakang']?></h3>
-	  			</div>
-	  		</div>
-        <ul class="list-unstyled components mb-5">
-          <li class="active">
-            <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
-          </li>
-          <li>
-              <a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">5</small></span> Calendar</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-gift mr-3"></span> Reminders</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-trophy mr-3"></span> Medicines</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-cog mr-3"></span> Settings</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-support mr-3"></span> Support</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
-          </li>
-        </ul>
-
-    	</nav>
-
-        <!-- Page Content  -->
-      <div id="content" class="" style="margin-top: -50px;">
+      
       <section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section" style="font-size: 40px;"><b>Welcome, <?php echo $showdataadm['nama_depan']?></b></h2>
-					<p  style="font-size: 20px;">Having a scheduled medicines to take? <br>Start making your reminders below!</p>
+					<h2 class="heading-section">Calendar #04</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -155,20 +118,17 @@
 			</div>
 		</div>
 	</section>
-      </div>
-		</div>
+ 
 
   <!-- Footer -->
   <?php  include("fw/footer-main.php") ?>
   <!-- Footer -->
-
+  
+    <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <script src="./sidebar-09/js/jquery.min.js"></script>
-    <script src="./sidebar-09/js/popper.js"></script>
-    <script src="./sidebar-09/js/bootstrap.min.js"></script>
-    <script src="./sidebar-09/js/main.js"></script>
     <script src="./calendar-04/js/main.js"></script>
+
   </body>
 </html>

@@ -116,7 +116,7 @@ else {
                                 <input id="join_time" type="text" name="join_time" id="join_time" value="<?php  date_default_timezone_set("Asia/Jakarta"); echo date("H:i:s")." GMT+7";  ?>" placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4 d-none">
                                 </div>
 
-                                <button type="submit" name="register" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
+                                <button type="submit" name="register" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign Up</button>
                                 <div class="text-center d-flex justify-content-between mt-4"><p>Already have account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign In</u></a></p></div>
                             </form>
                         </div>

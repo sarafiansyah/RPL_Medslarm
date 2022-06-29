@@ -64,7 +64,7 @@ if(isset($_POST['loginBtn'])) {
     <?php if(isset($_POST['register'])) {
   if(registration($_POST) > 0){
     echo "<script>
-    swal(\"Good job!\", \"You clicked the button!\", \"success\");
+    swal(\"Berhasil!\", \"Anda berhasil terdaftar!\", \"success\");
           </script>";
   }
 }

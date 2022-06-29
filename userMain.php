@@ -30,6 +30,7 @@
 		<link rel="stylesheet" href="./sidebar-09/css/style.css">
     <link rel="stylesheet" href="./calendar-04/css/style.css">
     <link rel="stylesheet" href="css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   </head>
   <body>
@@ -132,13 +133,13 @@
 			              </tbody> 
 				          </table>
 				        </div> 
-				        <button class="button" id="add-button">Add Event</button>
+				        <button class="button" id="add-button">Add Reminder</button>
 				      </div>
 				    </div>
 				    <div class="events-container">
 				    </div>
 				    <div class="dialog" id="dialog">
-				        <h2 class="dialog-header"> Add New Event </h2>
+				        <h2 class="dialog-header"> Add New Reminder </h2>
 				        <form class="form" id="form">
 				          <div class="form-container" align="center">
 				            <label class="form-label" id="valueFromMyButton" for="name">Medicine name</label>
@@ -170,5 +171,9 @@
     <script src="./sidebar-09/js/bootstrap.min.js"></script>
     <script src="./sidebar-09/js/main.js"></script>
     <script src="./calendar-04/js/main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
   </body>
 </html>

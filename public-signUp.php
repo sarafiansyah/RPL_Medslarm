@@ -98,7 +98,7 @@ if(isset($_POST['loginBtn'])) {
                                     <input id="password" type="password" name="password"placeholder="Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input id="password2" type="text" name="password2" placeholder="Confirm Password" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    <input id="password2" type="password" name="password2" placeholder="Confirm Password" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
                                 </div>
                                 <div class="form-group mb-3">
                                     <input id="namadepan" type="text" name="namadepan"  placeholder="First Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
@@ -107,15 +107,12 @@ if(isset($_POST['loginBtn'])) {
                                     <input id="namabelakang" type="text" name="namabelakang"  placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input id="join_date" type="text" name="join_date"  placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    <input id="join_date" type="text" name="join_date" id="join_date" value="<?php echo date("d/m/Y"); ?>" placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4 d-none">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input id="join_time" type="text" name="join_time"  placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                <input id="join_time" type="text" name="join_time" id="join_time" value="<?php  date_default_timezone_set("Asia/Jakarta"); echo date("H:i:s")." GMT+7";  ?>" placeholder="Last Name" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4 d-none">
                                 </div>
-                                <div class="custom-control custom-checkbox mb-3">
-                                    <input id="customCheck1" type="checkbox" checked class="custom-control-input">
-                                    <label for="customCheck1" class="custom-control-label">Remember password</label>
-                                </div>
+
                                 <button type="submit" name="register" id="register" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
                                 <div class="text-center d-flex justify-content-between mt-4"><p>Already have account? <a href="public-signIn.php" class="font-italic text-muted"> <u>Sign In</u></a></p></div>
                             </form>

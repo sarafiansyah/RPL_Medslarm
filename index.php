@@ -27,14 +27,14 @@
         <?php  include("fw/nav-main.php") ?>
         <div class="container justify-content-center mx-auto text-center">
        
-        <div data-aos="fade-right" data-aos-duration="2000">
+        <div data-aos="fade-up" data-aos-duration="2000">
         <div style="width: 600px; float: left; padding-top: 100px; padding-left: 100px; padding-right: 20px; text-align: left;">
         <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: white; "><b>No Meds Left Behind</b></h1>
         <p style="font-size: 24px; color: white; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!</p>
         <a class="btn  btn-outline-light rounded-pill mr-auto"  href="public-signUp.php" role="button">Sign Up</a>
         </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="2000">
+        <div data-aos="fade-up" data-aos-duration="2000">
         <img src="images/index-img01.png" class="img-fluid" style="width: 400px; height:400px;" alt="...">
         </div>
       </div>
@@ -48,26 +48,33 @@
 <div class="mainbg0" id="about" style="padding-top: 50px; padding-bottom: 100px;">
        
 <div class="container mx-auto text-center">
+<div data-aos="fade-up" data-aos-duration="2000">
 <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-calendar-check"></i> About Us</b></h1> 
 <hr class="mx-auto" style="border: 4px solid #0099ff; border-radius: 5px; width: 400px; text-align: center;">       
+</div>
+<div data-aos="fade-up" data-aos-duration="2000">
 <div class="d-flex justify-content-center mx-auto">
   <div> <img src="http://simpleicon.com/wp-content/uploads/responsive-design.png" style="width: 200px;" alt=""> <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p></div>
-  <div> <img src="https://cdn-icons-png.flaticon.com/512/45/45765.png" style="width: 200px; padding: 30px;" alt=""> <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p></div>
-  <div> <img src="https://static.thenounproject.com/png/72831-200.png" style="width: 200px; padding: 30px;" alt=""> <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p></div>
+  <div> <img src="https://cdn-icons-png.flaticon.com/512/45/45765.png" style="width: 200px; padding: 40px;" alt=""> <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p></div>
+  <div> <img src="https://static.thenounproject.com/png/72831-200.png" style="width: 200px; padding: 50px;" alt=""> <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p></div>
   
 
 
         </div>
+      </div>
       </div>
     
       </div>
 
       
       <div class="mainbg0" id="testimonials" style="padding-top: 20px; padding-bottom: 100px;">
-       
-<div class="container">
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-star-half-stroke"></i> Ratings & Reviews</b></h1> 
 
+<div class="container">
+        <div data-aos="fade-up" data-aos-duration="2000">
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-star-half-stroke"></i> Ratings & Reviews</b></h1> 
+<hr class="mx-auto" style="border: 4px solid #0099ff; border-radius: 5px; width: 400px; text-align: center;">       
+</div>
+<div data-aos="fade-up" data-aos-duration="2000">
 <div class="containerOWL rounded" style="color: black;">
 
     <div class="owl-carousel owl-theme">
@@ -148,11 +155,21 @@
 </div>
 </div>
 </div>
+</div>
 
 <div class="mainbg0" id="medicines" style="padding-top: 0px; padding-bottom: 300px;">
 <div class="container" >
-<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-pills"></i> Find your medicine!</b></h1> 
-<?php
+<div data-aos="fade-up" data-aos-duration="2000">
+<h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-pills"></i> Meds Verifier</b></h1> 
+<hr class="mx-auto" style="border: 4px solid #0099ff; border-radius: 5px; width: 400px; text-align: center;">       
+
+<form>
+<div class="mb-3" id="searchMeds">
+    <label for="exampleInputPassword1" class="form-label">Find your Medicine!</label>
+     <input type="text" name="search" class="form-control" id="inputMeds"  >
+     <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
+     </div>
+    <?php
 
 if (isset($_GET['search']) && ($_GET['search'] !== '')) {
     $search = urlencode($_GET['search']);
@@ -162,26 +179,19 @@ if (isset($_GET['search']) && ($_GET['search'] !== '')) {
         top: 400,
         behavior: 'smooth',
       });
-    document.getElementById('searchMeds').style.visibility = "hidden";
+    // document.getElementById('searchMeds').style.visibility = "hidden";
     </script>
 
 
-    <div id="emailHelp" class="form-text">Click here to search for '$search'</div>
+    <div id="emailHelp" style="font-size: 24px; color: black; ">Do you mean <b>'$search'</b>? Click buttons below to search for <b>'$search'</b></div>
 <a class="btn btn-primary" href="https://www.halodoc.com/obat-dan-vitamin/search/{$search}">Halodoc</a>
 <a class="btn btn-primary" href="https://www.google.com/search?q={$search}&ie=UTF-8&oe=UTF-8">Google</a>
-<a class="btn btn-primary" href="index.php">Clear</a>
+<a class="btn btn-danger" href="index.php">Clear</a>
 
 
 EOL;
 }
 ?>
-<form>
-<div class="mb-3" id="searchMeds">
-    <label for="exampleInputPassword1" class="form-label">Find your Medicine!</label>
-     <input type="text" name="search" class="form-control" id="inputMeds"  >
-     <p style="font-size: 24px; color: black; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dicta.</p>
-     </div>
-    
 
 
 
@@ -191,14 +201,20 @@ EOL;
 
       </div>
       </div>
+    </div>
 
-      <div class="mainbg0" id="partners" style="padding-top: 0px; padding-bottom: 100px;">
+      <div class="mainbg0" id="partners" style="padding-top: 0px; padding-bottom: 10px;">
       <div class="container mx-auto justify-content-center "> 
+      <div data-aos="fade-up" data-aos-duration="2000">
+
       <h1 clas=" text-center mx-auto text-light" style="font-size: 44px; color: #0099ff; text-align: center;"><b><i class="fa-solid fa-handshake"></i> Our Partners</b></h1> 
+      <hr class="mx-auto" style="border: 4px solid #0099ff; border-radius: 5px; width: 400px; text-align: center;">       
+
+     
       <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card" style="height: 220px;">
-    <img src="images/index-imgHalodoc.png"  class="img-fluid" style="width: 400px; height:400px;" alt="...">
+    <div class="card" style="">
+    <img src="images/index-imgHalodoc.png"  class="img-fluid" style="width: 400px; height:150px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.halodoc.com/">halodoc</a></h5>
         <p class="card-text"></p>
@@ -206,32 +222,33 @@ EOL;
     </div>
   </div>
   <div class="col">
-  <div class="card" style="height: 220px;">
-    <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+  <div class="card" style="">
+    <img src="images/index-imgKimiaFarma.jpg" class="img-fluid" style="width: 400px; height:150px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.kimiafarma.co.id/">Kimia Farma</a></h5>
-      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+      <p class="card-text"></p>
       </div>
     </div>
   </div>
   <div class="col">
-  <div class="card" style="height: 220px;">
-    <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+  <div class="card" style="">
+    <img src="images/index-imgKlikDokter.jpg" class="img-fluid" style="width: 400px; height:150px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://www.klikdokter.com/">klikDOKTER</a></h5>
-      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+      <p class="card-text"></p>
       </div>
     </div>
   </div>
   <div class="col">
-  <div class="card" style="height: 220px;">
-<img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:400px;" alt="...">
+  <div class="card" style="">
+<img src="images/index-imgCentury.jpg" class="img-fluid" style="width: 400px; height:150px;" alt="...">
       <div class="card-body">
       <h5 class="card-title"><a class="nav-link" href="https://century-pharma.com/">Century</a></h5>
-      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias.</p>
+      <p class="card-text"></p>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 </div>

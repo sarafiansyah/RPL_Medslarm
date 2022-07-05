@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5,
     text-align: left;
 }
 .event-cancelled {
-    color: #cd4dcc;
+    color: #0099ff;
     text-align: right;
 }
 
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5,
   }
 }
 #cancel-button {
-    background: #cd4dcc;
+    background: #0099ff;
 }
 #add-button {
   display: block;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5,
   color: #000;
 }
 .month:hover {
-    color: #cd4dcc;
+    color: #0099ff;
 }
 
 /*  Dates table */
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5,
   position: relative;
 }
 .table-date:not(.nil):hover { 
-    border-color: #cd4dcc;
+    border-color: #0099ff;
 }
 .event-date {
   border-color:$primary;
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 .active-date{ 
-    background: #cd4dcc;
+    background: #0099ff;
     color: #fff;
 }
 .event-date.active-date {
@@ -361,5 +361,5 @@ h1, h2, h3, h4, h5,
   border-color: #fff;
 }
 .error-input {
-    border-color: #cd4dcc;
+    border-color: #0099ff;
 }

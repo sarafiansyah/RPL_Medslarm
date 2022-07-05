@@ -8148,7 +8148,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #7e0cf5; }
+  color: #0099ff; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8162,7 +8162,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #7e0cf5 !important; }
+  background: #0099ff !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8191,7 +8191,7 @@ h1, h2, h3, h4, h5,
   height: 500px;
   position: relative;
   margin: 20px auto;
-  background: #7e0cf5; }
+  background: #0099ff; }
 
 /*  Events display */
 .events-container {
@@ -8237,7 +8237,7 @@ h1, h2, h3, h4, h5,
   font-size: 1rem; }
 
 .event-count {
-  color: #7e0cf5;
+  color: #0099ff;
   text-align: right; }
 
 .event-name {
@@ -8245,7 +8245,7 @@ h1, h2, h3, h4, h5,
   text-align: left; }
 
 .event-cancelled {
-  color: #cd4dcc;
+  color: #0099ff;
   text-align: right; }
 
 /*  Calendar wrapper */
@@ -8307,7 +8307,7 @@ h1, h2, h3, h4, h5,
       -o-transition: none;
       transition: none; } }
   .left-button:hover, .right-button:hover {
-    color: #7e0cf5 !important; }
+    color: #0099ff !important; }
 
 .left-button {
   left: 0; }
@@ -8331,7 +8331,7 @@ h1, h2, h3, h4, h5,
   transition: .2s ease all;
   color: white;
   border: none;
-  background: #7e0cf5; }
+  background: #0099ff; }
   .button.button-white {
     background: #fff;
     color: #000; }
@@ -8341,7 +8341,7 @@ h1, h2, h3, h4, h5,
     outline: none; }
 
 #cancel-button {
-  background: #cd4dcc; }
+  background: #0099ff; }
 
 #add-button {
   display: block;
@@ -8399,7 +8399,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .month:hover {
-  color: #cd4dcc; }
+  color: #0099ff; }
 
 /*  Dates table */
 .table-date {
@@ -8419,11 +8419,11 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 .table-date:not(.nil):hover {
-  border-color: #cd4dcc; }
+  border-color: #0099ff; }
 
 .event-date {
-  border-color: #7e0cf5;
-  background: #7e0cf5;
+  border-color: #0099ff;
+  background: #0099ff;
   color: #fff; }
   .event-date:after {
     position: absolute;
@@ -8436,11 +8436,11 @@ h1, h2, h3, h4, h5,
     background: #28a745; }
 
 .active-date {
-  background: #cd4dcc;
+  background: #0099ff;
   color: #fff; }
 
 .event-date.active-date {
-  background: #7e0cf5; }
+  background: #0099ff; }
 
 /* input dialog */
 .dialog {
@@ -8490,4 +8490,4 @@ h1, h2, h3, h4, h5,
   border-color: #fff; }
 
 .error-input {
-  border-color: #cd4dcc; }
+  border-color: #0099ff; }

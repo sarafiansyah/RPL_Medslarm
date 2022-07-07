@@ -53,7 +53,7 @@
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="text-align: left;">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold">MAYN Cororporation</h6>
+          <h6 class="text-uppercase fw-bold">MAYN Corp.</h6>
           <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
           <p>
             <a href="index.php" class="text-dark">Home</a>
@@ -65,7 +65,7 @@
           <p>
             <a href="public-signIn.php" class="text-dark">Sign In</a>
           </p>
-            <a href="public-signUp.php" class="text-dark">Sign Up</a>
+          <a href="public-signUp.php" class="text-dark">Sign Up</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -97,8 +97,8 @@
           <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
           <p><i class="fas fa-home mr-3"></i> Bekasi, ID 10230, Indonesia</p>
           <p><i class="fas fa-envelope mr-3"></i> medslarm@gmail.com</p>
-          <p><i class="fas fa-phone mr-3"></i> + 62 811 8833 680</p>
-          <p><i class="fas fa-print mr-3"></i> + 62 811 8833 680</p>
+          <p><i class="fas fa-phone mr-3"></i> + 62 811 8800 200</p>
+          <p><i class="fas fa-print mr-3"></i> + 62 811 8800 200</p>
         </div>
         <!-- Grid column -->
       </div>

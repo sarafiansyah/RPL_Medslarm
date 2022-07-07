@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-lg bg-transparent text-dark fixed-top" style="color:black;" >
+<nav class="navbar navbar-dark navbar-expand-lg bg-transparent text-dark" style="color:black;">
   <div class="container-fluid">
     <a class="navbar-brand" href="userMain.php">Medslarm <i class="fa-solid fa-syringe"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,7 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
-      <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Home
           </a>

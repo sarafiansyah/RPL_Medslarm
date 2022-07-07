@@ -142,7 +142,8 @@ function new_event(event) {
         var date = event.data.date;
         var name = $("#name").val().trim();
         var count = parseInt($("#count").val().trim());
-        var time = parseInt($("#time").val().trim());
+        var reps = parseInt($("#reps").val().trim());
+        var time = $("#time").val().trim();
         var day = parseInt($(".active-date").html());
         // Basic form validation
         if(name.length === 0) {
@@ -154,7 +155,7 @@ function new_event(event) {
         else {
             $("#dialog").hide(250);
             console.log("new event");
-            new_event_json(name, count, time, date, day);
+            new_event_json(name, count, reps, time, date, day);
             date.setDate(day);
             init_calendar(date);
         }
@@ -162,10 +163,11 @@ function new_event(event) {
 }
 
 // Adds a json event to event_data
-function new_event_json(name, count, time, date, day) {
+function new_event_json(name, count, reps, time, date, day) {
     var event = {
         "occasion": name,
         "invited_count": count,
+        "reps": reps,
         "time": time,
         "year": date.getFullYear(),
         "month": date.getMonth()+1,
@@ -191,20 +193,26 @@ function show_events(events, month, day) {
     else {
         // Go through and add each event as a card to the events container
         for(var i=0; i<events.length; i++) {
-            var event_card = $("<div class='event-card'></div>");
-            var event_name = $("<div class='event-name'>"+events[i]["occasion"]+":</div>");
-            var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Dosis</div>");
-            var event_time = $("<div class='event-count'>"+events[i]["time"]+" Kali Sehari</div>");
+            var event_card = $("<div class='event-card p-2'></div>");
+            var event_name = $("<div class='event-name'><b><i class='fa-solid fa-pills'></i> "+events[i]["occasion"]+"</b></div>");
+            var event_count = $("<br><div class='event-count'><i class='fa-solid fa-plus-minus'></i> Jumlah : "+events[i]["invited_count"]+" Pcs</div>");
+            var event_reps = $("<br><div class='event-count'><i class='fa-solid fa-stethoscope'></i> Dosis   : "+events[i]["reps"]+" Kali Sehari</div>");
+            var event_time = $("<br><div class='event-count'><i class='fa-solid fa-clock'></i> "+events[i]["time"]+" </div>");
             if(events[i]["cancelled"]===true) {
                 $(event_card).css({
                     "border-left": "10px solid #FF1744"
                 });
                 event_count = $("<div class='event-cancelled'>Cancelled</div>");
             }
-            $(event_card).append(event_name).append(event_count).append(event_time);
+            $(event_card).append(event_name).append(event_count).append(event_reps).append(event_time);
             $(".events-container").append(event_card);
         }
     }
+}
+
+function Delete() {
+    var elem = document.querySelector('#event-card');
+elem.parentNode.removeChild(elem);
 }
 
 // Checks if a specific date has any events
@@ -227,6 +235,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -236,6 +245,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -245,6 +255,7 @@ var event_data = {
         {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -254,6 +265,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -262,6 +274,7 @@ var event_data = {
         {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -271,6 +284,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -279,6 +293,7 @@ var event_data = {
         {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -288,6 +303,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -296,6 +312,7 @@ var event_data = {
         {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -305,6 +322,7 @@ var event_data = {
     {
         "occasion": " Repeated Test Event ",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,
@@ -313,6 +331,7 @@ var event_data = {
     {
         "occasion": " Test Event",
         "invited_count": 120,
+        "reps": 120,
         "time": 120,
         "year": 2020,
         "month": 5,

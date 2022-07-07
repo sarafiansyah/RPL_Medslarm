@@ -65,25 +65,22 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 			</div>
 			<ul class="list-unstyled components mb-5">
 				<li class="active">
-					<a href="userMain.php?page=home"><span class="fa fa-home mr-3"></span> Home</a>
-				</li>
-				<li class="active">
-					<a href="userMain.php?page=profile"><span class="fa fa-home mr-3"></span> Home</a>
+					<a href="#"><span class="fa fa-home mr-3"></span> Home</a>
 				</li>
 				<li class="active">
 					<a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">5</small></span> Calendar</a>
 				</li>
 				<li class="active">
-					<a href="userMain.php?page=reminder"><i class="fa-solid fa-stopwatch mr-3"></i> Reminders</a>
+					<a href="#"><i class="fa-solid fa-stopwatch mr-3"></i> Reminders</a>
 				</li>
 				<li class="active">
-					<a href="userMain.php?page=support"><i class="fa-solid fa-pills mr-3"></i> Medicines</a>
+					<a href="#"><i class="fa-solid fa-pills"></i> Medicines</a>
 				</li>
 				<li class="active">
 					<a href="#"><span class="fa fa-cog mr-3"></span> Settings</a>
 				</li>
 				<li class="active">
-					<a href="userMain.php?page=support"><span class="fa fa-support mr-3"></span> Support</a>
+					<a href="#"><span class="fa fa-support mr-3"></span> Support</a>
 				</li>
 				<li class="active">
 					<a href="logout.php"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
@@ -96,37 +93,112 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 		<div id="content" class="" style="margin-top: -50px;">
 			<section class="ftco-section">
 				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-6 text-center mb-5">
+							<h2 class="heading-section" style="font-size: 40px;"><b>Welcome, <?php echo $showdataadm['nama_depan'] ?></b></h2>
+							<p style="font-size: 20px;">Having a scheduled medicines to take? <br>Start making your reminders below!</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="content w-100 shadow">
+								<div class="calendar-container">
+									<div class="calendar">
+										<div class="year-header">
+											<span class="left-button fa fa-chevron-left" id="prev"> </span>
+											<span class="year mx-auto" id="label" style="margin-top: -20px; margin-left: -200px;"></span>
+											<span class="right-button fa fa-chevron-right" id="next"> </span>
+										</div>
+										<table class="months-table w-100">
+											<tbody>
+												<tr class="months-row">
+													<td class="month">Jan</td>
+													<td class="month">Feb</td>
+													<td class="month">Mar</td>
+													<td class="month">Apr</td>
+													<td class="month">May</td>
+													<td class="month">Jun</td>
+													<td class="month">Jul</td>
+													<td class="month">Aug</td>
+													<td class="month">Sep</td>
+													<td class="month">Oct</td>
+													<td class="month">Nov</td>
+													<td class="month">Dec</td>
+												</tr>
+											</tbody>
+										</table>
 
+										<table class="days-table w-100">
+											<td class="day">Sun</td>
+											<td class="day">Mon</td>
+											<td class="day">Tue</td>
+											<td class="day">Wed</td>
+											<td class="day">Thu</td>
+											<td class="day">Fri</td>
+											<td class="day">Sat</td>
+										</table>
+										<div class="frame">
+											<table class="dates-table w-100">
+												<tbody class="tbody">
+												</tbody>
+											</table>
+										</div>
+										<button class="button" id="add-button"><i class="fa-solid fa-plus"></i> Add Reminder</button>
+									</div>
+								</div>
+								<div class="events-container">
+								</div>
+								<div class="dialog" id="dialog">
+									<h2 class="dialog-header">Add New Reminder </h2>
+									<form class="form" id="form" style="margin-top: -100px;">
+										<div class="form-container" align="center">
+											<label class="form-label" id="valueFromMyButton" for="name">Nama Obat</label>
+											<input class="input" type="text" id="name" maxlength="36">
+											<label class="form-label" id="valueFromMyButton" for="count">Dosis</label>
+											<input class="input" type="number" id="count" min="0" max="1000000" maxlength="7">
+											<label class="form-label" id="valueFromMyButton" for="time">Berapa Kali Sehari</label>
+											<input class="input" type="number" id="reps" maxlength="36">
+											<label class="form-label" id="valueFromMyButton" for="time">Waktu</label>
+											<input class="input" type="time" id="time" maxlength="36">
+											<input type="button" value="Cancel" class="button" id="cancel-button">
+											<input type="button" value="OK" class="button button-white" id="ok-button">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					<?php
+					<div class="p-3">
+						<div class="row">
+							<div class="card mx-auto " style="height: 450px;">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<div class="mb-3 row">
+										<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" id="inputPassword">
+										</div>
+									</div>
+									<div class="mb-3 row">
+										<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" id="inputPassword">
+										</div>
+									</div>
+									<div class="mb-3 row">
+										<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" id="inputPassword">
+										</div>
+									</div>
+									<button type="submit" class="btn btn-primary">Submit</button>
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					if (isset($_GET['page'])) {
-						$page = $_GET['page'];
-
-						switch ($page) {
-							case 'home':
-								$display = 'userHome.php';
-								break;
-							case 'profile':
-								$display = 'userProfile.php';
-								break;
-							case 'reminder':
-								$display = 'userReminder.php';
-								break;
-							case 'support':
-								$display = 'userSupport.php';
-								break;
-
-
-							case 'help':
-								$display = 'help.php';
-								break;
-						}
-					} else $display = "userHome.php";
-
-					include($display);
-
-					?>
 
 
 				</div>

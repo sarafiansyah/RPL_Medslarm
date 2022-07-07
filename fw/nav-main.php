@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-lg bg-transparent text-light">
+<nav class="navbar navbar-dark navbar-expand-lg bg-transparent text-dark fixed-top" style="color:black;" >
   <div class="container-fluid">
     <a class="navbar-brand" href="userMain.php">Medslarm <i class="fa-solid fa-syringe"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         <li class="nav-item">
           <a class="nav-link active" href="pricing.php">Membership</a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown link
           </a>
@@ -33,7 +33,7 @@
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> -->
         <a class="nav-link active" href="public-signIn.php">Sign In</a>
         <a class="btn  btn-outline-light rounded-pill mr-auto" href="public-signUp.php" role="button">Sign Up</a>
       </ul>

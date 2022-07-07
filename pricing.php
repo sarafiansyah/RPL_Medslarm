@@ -29,25 +29,25 @@
         <div class="col-sm-4">
             <div class="tile pt-inner">
                 <div class="pti-header bg-amber">
-                    <h2>$25 <small>| mo</small></h2>
-                    <div class="ptih-title">Banana Pack</div>
+                    <h2>Rp 15.000 <small>| Bulan</small></h2>
+                    <div class="ptih-title">VIP PACK</div>
                 </div>
         
                 <div class="pti-body">
                     <div class="ptib-item">
-                        Pellentesque habitant morbi tristique senectus et netusmalesuada fames ac turpis egestas.  imperdiet tristique.
+                        Unlimited Reminder <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        In dapibus ipsum sit amet leo
+                        24 Hour Customer Service <i class="fa-solid fa-x"></i>
                     </div>
                     <div class="ptib-item">
-                        Vestibulum ut mauris tellus. Donec
+                        Friend Reminder <i class="fa-solid fa-x"></i>
                     </div>
                     <div class="ptib-item">
-                        Purna lectus venenatis felis, nonsemper
+                        Multiple Account <i class="fa-solid fa-x"></i>
                     </div>
                     <div class="ptib-item">
-                        Aliquam erat volutpat hasellus ultri
+                        End to End User <i class="fa-solid fa-x"></i>
                     </div>
                 </div>
         
@@ -59,25 +59,25 @@
         <div class="col-sm-4">
             <div class="tile pt-inner">
                 <div class="pti-header bg-green">
-                    <h2>$65 <small>| mo</small></h2>
-                    <div class="ptih-title">Papaya Pack</div>
+                    <h2>Rp 55.000<small>| Bulan</small></h2>
+                    <div class="ptih-title">SUPER VIP PACK</div>
                 </div>
         
                 <div class="pti-body">
                     <div class="ptib-item">
-                        Nullam diam dolor, sollicitudin vitae magna ut, pharetra tempor velit. Donec quis egestas nisl, id porta mi. Phasellus eleifend facilisis
+                        Unlimited Reminder <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Ina enim liberosed whens
+                        24 Hour Customer Service <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Sipsum maunich lendilwer
+                        Friend Reminder <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Dacider mengthu ferine looking seth
+                        Multiple Account <i class="fa-solid fa-x"></i>
                     </div>
-                    <div class="ptib-item">
-                        Sinnab wanliset wareder thenli
+                    <div class="ptib-item"> <i class="fa-solid fa-x"></i>
+                        End to End User
                     </div>
                 </div>
         
@@ -89,25 +89,25 @@
         <div class="col-sm-4">
             <div class="tile pt-inner">
                 <div class="pti-header bg-cyan">
-                    <h2>$660 <small>| mo</small></h2>
-                    <div class="ptih-title">Orange Pack</div>
+                    <h2>Rp 100.000 <small>| Bulan</small></h2>
+                    <div class="ptih-title">ULTRA VIP PACK</div>
                 </div>
         
                 <div class="pti-body">
                     <div class="ptib-item">
-                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris iaculis laoreet mattis piuminer lasethol and envy
+                        Unlimited Reminder <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Maricial wendys boraoand denish
+                        24 Hour Customer Service <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Manchil vallao whengoo
+                        Friend Reminder <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Shaeel ipsum leeshan
+                        Multiple Account <i class="fa fa-check"></i>
                     </div>
                     <div class="ptib-item">
-                        Hasellus ultrices tincidunt
+                        End to End User <i class="fa fa-check"></i>
                     </div>
                 </div>
         

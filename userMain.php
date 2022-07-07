@@ -51,7 +51,7 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 			</div>
 			<div class="img bg-wrap text-center py-4" style="background-image: url(./sidebar-09/images/bg_1.jpg);">
 				<div class="user-logo">
-					<div class="img" style="background-image: url(./sidebar-09/images/logo.jpg);"></div>
+					<div class="img" style="background-image: url(https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png);"></div>
 					<h3><?php echo $showdataadm['nama_depan'] . " " . $showdataadm['nama_belakang'] ?></h3>
 				</div>
 			</div>
@@ -75,7 +75,7 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 					<a href="#"><span class="fa fa-support mr-3"></span> Support</a>
 				</li>
 				<li class="active">
-					<a href="#"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
+					<a href="logout.php"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
 				</li>
 			</ul>
 

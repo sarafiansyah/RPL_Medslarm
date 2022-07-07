@@ -12,7 +12,7 @@
       <a href="https://www.facebook.com/mahesa.rafiansyah" class="text-white me-4">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="" class="text-white me-4">
+      <a href="#" class="text-white me-4">
         <i class="fab fa-twitter"></i>
       </a>
       <a href="" class="text-white me-4">
@@ -53,19 +53,19 @@
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="text-align: left;">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold">Products</h6>
+          <h6 class="text-uppercase fw-bold">MAYN Cororporation</h6>
           <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
           <p>
-            <a href="#!" class="text-dark">MDBootstrap</a>
+            <a href="index.php" class="text-dark">Home</a>
           </p>
           <p>
-            <a href="#!" class="text-dark">MDWordPress</a>
+            <a href="pricing.php" class="text-dark">Membership</a>
           </p>
           <p>
-            <a href="#!" class="text-dark">BrandFlow</a>
-          </p>
           <p>
-            <a href="#!" class="text-dark">Bootstrap Angular</a>
+            <a href="public-signIn.php" class="text-dark">Sign In</a>
+          </p>
+            <a href="public-signUp.php" class="text-dark">Sign Up</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -76,7 +76,7 @@
           <h6 class="text-uppercase fw-bold">Useful links</h6>
           <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
           <p>
-            <a href="#!" class="text-dark">Your Account</a>
+            <a href="userMain.php" class="text-dark">Your Account</a>
           </p>
           <p>
             <a href="#!" class="text-dark">Become an Affiliate</a>
@@ -98,7 +98,7 @@
           <p><i class="fas fa-home mr-3"></i> Bekasi, ID 10230, Indonesia</p>
           <p><i class="fas fa-envelope mr-3"></i> medslarm@gmail.com</p>
           <p><i class="fas fa-phone mr-3"></i> + 62 811 8833 680</p>
-          <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-print mr-3"></i> + 62 811 8833 680</p>
         </div>
         <!-- Grid column -->
       </div>

@@ -68,7 +68,7 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 					<a href="userMain.php?page=home"><span class="fa fa-home mr-3"></span> Home</a>
 				</li>
 				<li class="active">
-					<a href="userMain.php?page=profile"><span class="fa fa-home mr-3"></span> Home</a>
+					<a href="userMain.php?page=profile"><span class="fa fa-home mr-3"></span> Profile</a>
 				</li>
 				<li class="active">
 					<a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">5</small></span> Calendar</a>
@@ -81,6 +81,9 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 				</li>
 				<li class="active">
 					<a href="#"><span class="fa fa-cog mr-3"></span> Settings</a>
+				</li>
+				<li class="active">
+					<a href="userMain.php?page=alarm"><span class="fa fa-support mr-3"></span> Alarm</a>
 				</li>
 				<li class="active">
 					<a href="userMain.php?page=support"><span class="fa fa-support mr-3"></span> Support</a>
@@ -116,6 +119,9 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 							case 'support':
 								$display = 'userSupport.php';
 								break;
+							case 'alarm':
+								$display = 'userAlarm.php';
+								break;
 
 
 							case 'help':
@@ -146,6 +152,7 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 	<script src="./sidebar-09/js/bootstrap.min.js"></script>
 	<script src="./sidebar-09/js/main.js"></script>
 	<script src="./calendar-04/js/main.js"></script>
+	<script src="js/main.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		AOS.init();

@@ -59,6 +59,17 @@
 						<input class="input" type="number" id="reps" maxlength="36">
 						<label class="form-label" id="valueFromMyButton" for="time">Waktu</label>
 						<input class="input" type="time" id="time" maxlength="36">
+						<div class="alarm-inputs">
+							<input type="number" name="hour" placeholder="Enter hours" min="0" max="12" required />
+							<input type="number" name="min" min="0" max="60" placeholder="Enter minutes" required />
+							<input type="number" name="sec" min="0" max="60" placeholder="Enter seconds" required />
+							<select name="zone" required>
+								<option value="" selected disabled>Zone</option>
+								<option value="AM">AM</option>
+								<option value="PM">PM</option>
+							</select>
+						</div>
+						<button>Submit</button><br>
 						<input type="button" value="Cancel" class="button" id="cancel-button">
 						<input type="button" value="OK" class="button button-white" id="ok-button">
 					</div>

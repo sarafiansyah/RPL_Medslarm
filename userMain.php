@@ -33,6 +33,7 @@ $showdataadm = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/feedback.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 

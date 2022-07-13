@@ -46,6 +46,10 @@
         #active-alarm {
             display: none;
         }
+
+        a {
+            text-decoration: none;
+        }
     </style>
 
 </head>
@@ -144,21 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-actions">
-                    <form>
-                        <div class="alarm-inputs">
-                            <input type="number" name="hour" placeholder="Enter hours" min="0" max="12" required />
-                            <input type="number" name="min" min="0" max="60" placeholder="Enter minutes" required />
-                            <input type="number" name="sec" min="0" max="60" placeholder="Enter seconds" required />
-                            <select name="zone" required>
-                                <option value="" selected disabled>Zone</option>
-                                <option value="AM">AM</option>
-                                <option value="PM">PM</option>
-                            </select>
-                        </div>
-                        <button>Submit</button>
-                    </form>
-                </div>
+
             </div>
         </div>
         <div id="active-alarm">
@@ -183,7 +173,7 @@
             // Select DOM element of active alarm text
             const alarmTextContainer = document.getElementById("alarm-text");
 
-            const alarmText = (time) => `Alarm set at time ${time}`;
+            const alarmText = (time) => `Medicine Reminder set at time ${time}`;
 
             // Initialize alarm sound
             alarmAudio.src = "http://soundbible.com/grab.php?id=1252&type=mp3";
@@ -228,7 +218,12 @@
             // Function to check if alarm needs to be triggered
             const checkAlarm = (timeString) => {
                 if (alarmString === timeString) {
-                    alert("Alarm");
+                    swal({
+                        title: "Reminder!",
+                        text: "You have 1 Paracetamol to consume. Please consume before the time runs out!",
+                        icon: "warning",
+                        button: "GOT IT!",
+                    });
                 }
             };
 

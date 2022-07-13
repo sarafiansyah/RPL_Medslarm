@@ -200,7 +200,7 @@
 
 
     <div id="emailHelp" style="font-size: 24px; color: black; ">Do you mean <b>'$search'</b>? Click buttons below to search for <b>'$search'</b></div>
-<a class="btn btn-primary" href="https://www.halodoc.com/obat-dan-vitamin/search/{$search}">Halodoc</a>
+
 <a class="btn btn-primary" href="https://www.google.com/search?q={$search}&ie=UTF-8&oe=UTF-8">Google</a>
 <a class="btn btn-danger" href="index.php">Clear</a>
 
@@ -268,20 +268,6 @@ EOL;
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

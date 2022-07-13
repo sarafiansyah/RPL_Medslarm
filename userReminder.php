@@ -52,11 +52,11 @@
 				<form class="form" id="form" style="margin-top: -100px;">
 					<div class="form-container" align="center">
 						<label class="form-label" id="valueFromMyButton" for="name">Nama Obat</label>
-						<input class="input" type="text" id="name" maxlength="36">
-						<label class="form-label" id="valueFromMyButton" for="count">Dosis</label>
-						<input class="input" type="number" id="count" min="0" max="1000000" maxlength="7">
-						<label class="form-label" id="valueFromMyButton" for="time">Berapa Kali Sehari</label>
-						<input class="input" type="number" id="reps" maxlength="36">
+						<input class="input" type="text" id="name" maxlength="36" placeholder="Paracetamol">
+						<label class="form-label" id="valueFromMyButton" for="count">Jumlah</label>
+						<input class="input" type="number" id="count" min="0" max="1000000" maxlength="7" placeholder="Jumlah takaran obat">
+						<label class="form-label" id="valueFromMyButton" for="time">Dosis</label>
+						<input class="input" type="number" id="reps" maxlength="36" placeholder="Berapa kali sehari?">
 						<label class="form-label" id="valueFromMyButton" for="time">Waktu</label>
 						<input class="input" type="time" id="time" maxlength="36">
 						<div class="alarm-inputs">
